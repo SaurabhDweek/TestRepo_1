@@ -106,7 +106,7 @@ public class DivideRandomNumber : MonoBehaviour
         
         float val = BonusValue;
 
-        //Debug.Log("TOTAL FREE SPIN REWARD:" + val);
+        Debug.Log("TOTAL FREE SPIN REWARD:" + val);
 
         float totalweightSum = 0f;
 
