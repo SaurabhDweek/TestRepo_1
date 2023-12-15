@@ -111,7 +111,7 @@ public class DivideRandomNumber : MonoBehaviour
         float totalweightSum = 0f;
 
         getSpin = maxParts;
-        //Debug.Log("Bonus 1 Game Calcluation");
+        Debug.Log("Bonus 1 Game Calcluation");
 
         intTotalRweardCounter = 0;
         intGetRewardVal = 0;
@@ -123,7 +123,7 @@ public class DivideRandomNumber : MonoBehaviour
         totalRewardList.Clear();
         getRewardList.Clear();
 
-        //Debug.Log("TOTAL FREE SPIN REWARD:" + val);
+        Debug.Log("TOTAL FREE SPIN REWARD:" + val);
         List<float> spinWList = new List<float>();
 
         for (int i = 0; i < _spinReward._weightedValueList.Count; i++)
